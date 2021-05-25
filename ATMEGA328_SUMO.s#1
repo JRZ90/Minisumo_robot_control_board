@@ -9955,7 +9955,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="C14" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="100nF"/>
 <part name="SUPPLY13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="100nF"/>
+<part name="C15" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="100nF"/>
 <part name="SUPPLY16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -10467,7 +10467,7 @@ BORDE</text>
 <attribute name="VALUE" x="292.862" y="241.3" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY13" gate="1" x="297.18" y="229.87" smashed="yes"/>
-<instance part="C4" gate="G$1" x="189.23" y="59.69" smashed="yes">
+<instance part="C15" gate="G$1" x="189.23" y="59.69" smashed="yes">
 <attribute name="NAME" x="186.69" y="63.5" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="191.77" y="61.722" size="1.778" layer="96"/>
 </instance>
@@ -10789,7 +10789,7 @@ BORDE</text>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="58.42" x2="195.58" y2="59.69" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="59.69" x2="194.31" y2="59.69" width="0.1524" layer="91"/>
 </segment>
@@ -10963,7 +10963,7 @@ BORDE</text>
 <pinref part="U4" gate="P" pin="V+"/>
 <pinref part="VCC3.13" gate="1" pin="VCC"/>
 <wire x1="179.07" y1="58.42" x2="179.07" y2="59.69" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="179.07" y1="59.69" x2="179.07" y2="62.23" width="0.1524" layer="91"/>
 <wire x1="184.15" y1="59.69" x2="179.07" y2="59.69" width="0.1524" layer="91"/>
 <junction x="179.07" y="59.69"/>
